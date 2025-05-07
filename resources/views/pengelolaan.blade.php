@@ -18,10 +18,10 @@
             <tbody style="color: #333333;">
                 @foreach($games as $game)
                     <tr class="border-b hover:bg-[#bbf2d7]">
-                        <td class="px-4 py-2">{{ $game['name'] }}</td>
+                        <td class="px-4 py-2">{{ $game['nama_game'] }}</td>
                         <td class="px-4 py-2">{{ $game['developer'] }}</td>
                         <td class="px-4 py-2">{{ $game['publisher'] }}</td>
-                        <td class="px-4 py-2">{{ $game['release_date'] }}</td>
+                        <td class="px-4 py-2">{{ $game['tanggal_rilis'] }}</td>
                         <td class="px-4 py-2">{{ $game['platform'] }}</td>
                         <td class="px-4 py-2">{{ $game['rating'] }}</td>
                     </tr>

@@ -12,10 +12,8 @@
         @include("components.navbar")
     </header>
 
-    <main>
-        <div>
-            @yield("content")
-        </div>
+    <main style="background-color: #333333;">
+        @yield("content")
     </main>
 
     <footer>

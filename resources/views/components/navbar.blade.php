@@ -1,4 +1,4 @@
-<nav style="background-color: #555555;" class="py-4 mb-3">
+<nav style="background-color: #555555;" class="py-4">
     <div class="container mx-auto flex justify-between items-center px-6">
         <div>
             <img src="{{ asset('images/logo/logotype.png') }}" alt="LogoType PlayLog" class="h-8">

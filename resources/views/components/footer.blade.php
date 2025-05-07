@@ -1,4 +1,4 @@
-<div style="background-color: #555555;" class="text-center mt-3 px-6 py-3 grid grid-cols-2 gap-8">
+<div style="background-color: #555555;" class="text-center px-6 py-3 grid grid-cols-2 gap-8">
     <div class="flex flex-col items-center justify-center">
         <img src="{{ asset('images/logo/logo.png') }}" alt="Logo PlayLog" class="h-16 mb-2">
         <p class="text-sm text-gray-300">
@@ -17,5 +17,5 @@
 </div>
 
 <div style="background-color: #0cbd66;" class="text-center py-3 text-sm">
-    <p>Copyright 2025 PlayLog. All Rights Reserved.</p>
+    <p>Copyright © 2025 PlayLog. All Rights Reserved.</p>
 </div>

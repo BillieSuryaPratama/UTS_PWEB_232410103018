@@ -13,7 +13,6 @@ class LoginController extends Controller
 
     public function Autentikasi(Request $request)
     {
-        // Hardcode username dan password
         $HardcodeUsername = 'billie';
         $HardcodePassword = 'billie123';
 

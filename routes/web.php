@@ -7,9 +7,6 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\PengelolaanController;
 
-// Route::get('/', function () {
-//     return view('login');
-// });
 Route::get('/', [LoginController::class, 'showPageLogin'])->name('login');
 Route::post('/login', [LoginController::class, 'Autentikasi'])->name('login.Autentikasi');
 

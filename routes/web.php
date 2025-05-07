@@ -10,11 +10,6 @@ use App\Http\Controllers\PengelolaanController;
 Route::get('/', [LoginController::class, 'showPageLogin'])->name('login');
 Route::post('/login', [LoginController::class, 'Autentikasi'])->name('login.Autentikasi');
 
-Route::get('/dashboard', function (Request $request) {
-    $username = $request->query('username');
-    return view('dashboard', compact('username'));
-})->name('dashboard');
-
 Route::get('/dashboard', [DashboardController::class, 'showPageDashboard'])->name('dashboard');
 
 Route::get('/profile', [ProfileController::class, 'showPageProfile'])->name('profile');

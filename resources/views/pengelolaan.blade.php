@@ -1,7 +1,7 @@
 @extends("layouts.app")
 
 @section("content")
-    <h1 style="color: #0cbd66;" class="text-3xl font-bold text-center pb-6 pt-4">Recommended Games in 2020</h1>
+    <h1 style="color: #0cbd66;" class="text-3xl font-bold text-center pb-6 pt-4">Rekomendasi Game Tahun 2024</h1>
 
     <div class="overflow-x-auto bg-white shadow-md rounded-lg">
         <table class="min-w-full table-auto border-collapse">

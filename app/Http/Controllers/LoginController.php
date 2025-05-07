@@ -18,7 +18,8 @@ class LoginController extends Controller
         $HardcodePassword = 'billie123';
 
         if ($request->username === $HardcodeUsername && $request->password === $HardcodePassword) {
-            return redirect()->route('dashboard', ['username' => $request->username]);
+            session(['username' => $request->username]);
+            return redirect()->route('dashboard');
         } else {
             return redirect()->route('login')->withErrors(['loginError' => 'Username atau Password salah']);
         }
